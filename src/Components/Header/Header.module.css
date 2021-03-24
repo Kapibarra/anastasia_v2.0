@@ -1,4 +1,8 @@
-.Header {}
+.Header {
+    width: 100%;
+    max-width: 1328px;
+    margin: 0 auto;
+}
 
 .Header__Logo {}
 
