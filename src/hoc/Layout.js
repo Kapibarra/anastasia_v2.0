@@ -1,5 +1,6 @@
 import { Component } from "react";
 import Header from "../Components/Header/Header";
+import Main from "../Components/Main/Main";
 import classes from "./Layout.module.css"
 
 class Layout extends Component {
@@ -7,12 +8,14 @@ render () {
     return (
         <div className={classes.Layout}>
 <Header />
+<Main />
         </div>
     )
 }
 }
 export default Layout
-{/* <Switch>
+
+/* <Switch>
           <Route path="/">
             <Header />
             <Main />
@@ -38,4 +41,4 @@ export default Layout
             <Main/>
             <Footer />
           </Route>
-        </Switch> */}
+        </Switch> */

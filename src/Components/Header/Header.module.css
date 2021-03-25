@@ -1,11 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 .Header {
     width: 100%;
     max-width: 1328px;
+    height: 100px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
 }
 
-.Header__Logo {}
+.Header__Logo {
+    align-items: center;
+    display: flex;
+}
 
-.Header__Nav {}
+.Header__Logo img:nth-child(1) {
+    margin-right: 18px;
+}
 
-.Header__Nav_item {}
+.Header__Nav {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 446px;
+    justify-content: space-between;
+}
+
+.Header__Nav a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: black;
+    opacity: 0.95;
+}
+
+.Header__Nav a:hover {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    opacity: 1;
+}

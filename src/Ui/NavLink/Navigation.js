@@ -12,27 +12,11 @@ import {
 const Navigation = () => {
     return (
 <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
               <Link to="/">Главная</Link>
-            </li>
-            <li>
               <Link to="/about">Кто я</Link>
-            </li>
-            <li>
               <Link to="/services">Услуги</Link>
-            </li>
-            <li>
               <Link to="/rewiews">Отзывы</Link>
-            </li>
-            <li>
               <Link to="/contacts">Контакты</Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
     </Router>
     )
 }
