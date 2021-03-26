@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Footer from "../Components/Footer/Footer";
 import Header from "../Components/Header/Header";
 import Main from "../Components/Main/Main";
 import classes from "./Layout.module.css"
@@ -9,6 +10,7 @@ render () {
         <div className={classes.Layout}>
 <Header />
 <Main />
+<Footer />
         </div>
     )
 }
