@@ -18,7 +18,7 @@ const Main = () => {
             Профессиональная консультация от дипломированного психолога и
             преподавателя
           </p>
-          <Button title="Оставить заявку" />
+          <Button title="Оставить заявку" path="/contacts" />
         </div>
         <div className={classes.MainContentImage}>
           <img src={profile} alt=""></img>

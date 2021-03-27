@@ -2,7 +2,8 @@ import { Component } from "react";
 import Footer from "../Components/Footer/Footer";
 import Header from "../Components/Header/Header";
 import Main from "../Components/Main/Main";
-import classes from "./Layout.module.css"
+import classes from "./Layout.module.css";
+import About from "../Components/About/About";
 
 class Layout extends Component {
 render () {
@@ -10,6 +11,7 @@ render () {
         <div className={classes.Layout}>
 <Header />
 <Main />
+<About />
 <Footer />
         </div>
     )
