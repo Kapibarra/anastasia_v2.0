@@ -7,7 +7,8 @@ import image2 from "../../img/workimg2.png";
 const Work = () => {
   return (
     <div className={classes.WorkWrapper}>
-      <div className={classes.WorkContent}>
+    <h1 className={classes.WorkContentPageTitle}>Услуги</h1>
+      <div className={classes.WorkContent}>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
         <div className={classes.WorkContentItem}>
           <img src={image1}></img>
           <div className={classes.WorkContentText}>
@@ -16,7 +17,7 @@ const Work = () => {
             </h1>
             <p>
               Индивидуальная работа на личном приеме в городе Москва, в пределах
-              ТТК. Идеальная возможность применить различные методики для
+              ТТК. Идеальная возможность применить различные методики для                                              
               эффективной проработки вашего запроса : символдрама,
               метафорические карты, и другие. Приём проходит в уютном кабинете,
               в центральной части города . Продолжительность сеанса - 60 минут .

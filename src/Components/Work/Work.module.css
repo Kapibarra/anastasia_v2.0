@@ -13,6 +13,17 @@
     justify-content: space-between;
 }
 
+.WorkContentPageTitle {
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+    max-width: 1328px;
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: 400;
+    padding: 50px 0px;
+}
+
 .WorkContentText {
     text-align: center;
     background-color: white;
@@ -35,6 +46,5 @@
 .WorkContentItem {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     max-width: 580px;
 }
