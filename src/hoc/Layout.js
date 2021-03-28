@@ -4,6 +4,7 @@ import Header from "../Components/Header/Header";
 import Main from "../Components/Main/Main";
 import classes from "./Layout.module.css";
 import About from "../Components/About/About";
+import Work from "../Components/Work/Work";
 
 class Layout extends Component {
 render () {
@@ -12,6 +13,7 @@ render () {
 <Header />
 <Main />
 <About />
+<Work />
 <Footer />
         </div>
     )
