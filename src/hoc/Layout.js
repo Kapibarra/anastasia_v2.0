@@ -6,6 +6,7 @@ import classes from "./Layout.module.css";
 import About from "../Components/About/About";
 import Work from "../Components/Work/Work";
 import Contact from "../Components/Contact/Contact";
+import Reviews from "../Components/Reviews/Reviews";
 
 class Layout extends Component {
 render () {
@@ -16,6 +17,7 @@ render () {
 <About />
 <Work />
 <Contact />
+<Reviews />
 <Footer />
         </div>
     )

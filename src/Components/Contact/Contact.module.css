@@ -17,6 +17,7 @@
 
 .ContactText {
     width: 370px;
+    margin-bottom: 20px;
 }
 
 .ContactTitle {
@@ -56,6 +57,7 @@
 input::placeholder {
     text-align: center;
     font-family: Roboto;
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 20px;
     color: rgb(26, 26, 26);
 }

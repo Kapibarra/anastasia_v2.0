@@ -1,0 +1,41 @@
+.ReviewsWrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #e3e3e3;
+    background-image: url(../../img/workbg.png);
+    background-repeat: no-repeat;
+    background-position: calc(100vw - 64vw);
+    background-size: 40%;
+}
+
+.ReviewsContent {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 1328px;
+}
+
+.ReviewsBlockItem1 {
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 15px;
+    margin-top: 180px;
+    height: 436px;
+}
+
+.ReviewsBlockItem2 {
+    width: 445px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 35px;
+    height: 340px;
+}
+
+.ReviewsBlockItem3 {
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 35px;
+    height: 276px;
+}
