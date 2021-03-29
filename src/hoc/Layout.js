@@ -5,6 +5,7 @@ import Main from "../Components/Main/Main";
 import classes from "./Layout.module.css";
 import About from "../Components/About/About";
 import Work from "../Components/Work/Work";
+import Contact from "../Components/Contact/Contact";
 
 class Layout extends Component {
 render () {
@@ -14,6 +15,7 @@ render () {
 <Main />
 <About />
 <Work />
+<Contact />
 <Footer />
         </div>
     )

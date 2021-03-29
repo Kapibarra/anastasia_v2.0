@@ -2,9 +2,10 @@
     width: 230px;
     height: 60px;
     background-color: #497577;
-    border: none;
+    border: 1px solid #e3e3e3;
     border-radius: 6px;
     color: #FFFFFF;
+    margin: 0 auto;
 }
 
 .Button a {

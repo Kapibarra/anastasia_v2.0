@@ -1,0 +1,61 @@
+.ContactWrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #e3e3e3;
+    background-image: url(../../img/workbg.png);
+    background-repeat: no-repeat;
+    background-position: calc(100vw - 68vw);
+    height: 900px;
+}
+
+.ContactContent {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 1328px;
+}
+
+.ContactText {
+    width: 370px;
+}
+
+.ContactTitle {
+    margin-top: 0;
+    padding-top: 100px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.ContactSubTitle {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.ContactDescription {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.ContactForm {
+    justify-content: center;
+    margin: auto;
+}
+
+.ButtonContactWrapper {
+    display: block;
+    margin: 0 auto;
+    width: 230px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+input::placeholder {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    color: rgb(26, 26, 26);
+}

@@ -2,6 +2,9 @@
     width: 100%;
     margin: 0 auto;
     background-color: #e3e3e3;
+    background-image: url(../../img/workbg.png);
+    background-repeat: no-repeat;
+    background-position: calc(100vw - 41vw) top;
 }
 
 .WorkContent {
@@ -47,4 +50,5 @@
     display: flex;
     flex-direction: column;
     max-width: 580px;
+    z-index: 1;
 }
