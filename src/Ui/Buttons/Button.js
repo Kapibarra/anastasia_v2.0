@@ -6,7 +6,7 @@ const Button = (props) => {
   return (
     <button className={classes.Button}  type={props.type}>
       <Router>
-        <Link to={props.path} >{props.title}</Link>
+        <Link to={props.path || "/"} >{props.title}</Link>
       </Router>
     </button>
   );
