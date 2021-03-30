@@ -1,4 +1,5 @@
-import React from "react";
+import classes from "./Navigation.module.css";
+import React, { Fragment } from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,13 +12,13 @@ import {
 
 const Navigation = () => {
     return (
-     <Router>
+      <Fragment>
               <Link to="/">Главная</Link>
               <Link to="/about">Кто я</Link>
               <Link to="/services">Услуги</Link>
               <Link to="/rewiews">Отзывы</Link>
               <Link to="/contacts">Контакты</Link>
-    </Router>
+      </Fragment>
     )
 }
 export default Navigation
