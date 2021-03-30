@@ -49,6 +49,6 @@
 .WorkContentItem {
     display: flex;
     flex-direction: column;
+    width: 100%;
     max-width: 580px;
-    z-index: 1;
 }

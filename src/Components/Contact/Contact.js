@@ -3,7 +3,7 @@ import Button from '../../Ui/Buttons/Button'
 import Input from '../../Ui/Input/Input'
 import classes from "./Contact.module.css"
 
-const Contact = () => {
+function Contact()  {
     return(
         <div className={classes.ContactWrapper}>
             <div className={classes.ContactContent}>
@@ -14,13 +14,15 @@ const Contact = () => {
 <Button path="" title="Договор"/>
 </div>
 <div className={classes.ContactForm}>
+<form action="https://formspree.io/xvowyvgl" method="POST">
     <Input placeholder="Имя"/>
     <Input placeholder="+ 7 (999) 999-99-99"/>
     <Input placeholder="example@mail.com"/>
     <Input placeholder="Опишите проблему"/>
     <div className={classes.ButtonContactWrapper}>
-            <Button path="/contacts" title="Отправить"></Button>
+            <Button title="Отправить" type="submit"></Button>
           </div>
+          </form>
 </div>
             </div>
         </div>

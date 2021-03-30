@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const Button = (props) => {
   return (
-    <button className={classes.Button}>
+    <button className={classes.Button}  type={props.type}>
       <Router>
         <Link to={props.path} >{props.title}</Link>
       </Router>

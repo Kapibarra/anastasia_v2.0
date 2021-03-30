@@ -11,7 +11,7 @@ import {
 
 const Navigation = () => {
     return (
-<Router>
+     <Router>
               <Link to="/">Главная</Link>
               <Link to="/about">Кто я</Link>
               <Link to="/services">Услуги</Link>

@@ -6,8 +6,8 @@ const Reviews = () => {
     <div className={classes.ReviewsWrapper}>
       <div className={classes.ReviewsContent}>
         <div className={classes.ReviewContentText}>
-          <h1>Истории моих клиентов</h1>
-          <p>Имена были изменены</p>
+          <h1 className={classes.ReviewsTitle}>Истории моих клиентов</h1>
+          <p className={classes.ReviewsSubTitle}>Имена были изменены</p>
         </div>
         <div>
           <div className={classes.ReviewsBlock}>
