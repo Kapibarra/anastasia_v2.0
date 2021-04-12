@@ -1,7 +1,10 @@
 import classes from "./Footer.module.css";
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import sociallogo1 from "../../img/whatsapp_logo.png"
+import sociallogo2 from "../../img/telegram_logo2.png"
+import sociallogo3 from "../../img/profi-logo.png"
+import sociallogo4 from "../../img/youtube_logo.png"
 
 const Footer = (props) => {
   return (
@@ -13,12 +16,10 @@ const Footer = (props) => {
         </div>
         <div className={classes.SocialLogos}>
           <div className={classes.SocialIconsWrapper}>
-            <Router>
-              <Link to="#"><img src={sociallogo1} className={classes.SocialIconsImg}></img></Link>
-              <Link to="#"><img src={sociallogo1} className={classes.SocialIconsImg}></img></Link>
-              <Link to="#"><img src={sociallogo1} className={classes.SocialIconsImg}></img></Link>
-              <Link to="#"><img src={sociallogo1} className={classes.SocialIconsImg}></img></Link>
-            </Router>
+              <NavLink to="#"><img src={sociallogo1} className={classes.SocialIconsImg}></img></NavLink>
+              <NavLink to="#"><img src={sociallogo2} className={classes.SocialIconsImg}></img></NavLink>
+              <NavLink to="#"><img src={sociallogo3} className={classes.SocialIconsImg}></img></NavLink>
+              <NavLink to="#"><img src={sociallogo4} className={classes.SocialIconsImg}></img></NavLink>
           </div>
         </div>
       </div>

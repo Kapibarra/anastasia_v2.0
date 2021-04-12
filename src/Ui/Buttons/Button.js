@@ -1,14 +1,16 @@
 import React from "react";
 import classes from "./Button.module.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {NavLink} from 'react-router-dom'
 
 const Button = (props) => {
   return (
-    <button className={classes.Button}  type={props.type}>
-      <Router>
-        <Link to={props.path || "/"} >{props.title}</Link>
-      </Router>
-    </button>
+    
+        <NavLink to={props.path || "/"} >
+        <button className={classes.Button}  type={props.type}>
+        {props.title}
+        </button>
+        </NavLink>
+
   );
 };
 

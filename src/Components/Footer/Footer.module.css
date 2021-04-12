@@ -27,6 +27,11 @@
     filter: grayscale(100);
 }
 
+.SocialIconsImg:hover {
+    transition: all 0.7s;
+    filter: grayscale(0);
+}
+
 .SocialIconsImg a:nth-child(4) {
     padding-right: 0px;
 }

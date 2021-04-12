@@ -1,14 +1,10 @@
 import classes from "./Navigation.module.css";
 import React, { Fragment } from "react";
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
+  BrowserRouter ,
   Link
 } from "react-router-dom";
-// import Footer from "../../Components/Footer/Footer";
-// import Header from "../../Components/Header/Header";
-// import Main from "../../Components/Main/Main";
+
 
 const Navigation = () => {
     return (
