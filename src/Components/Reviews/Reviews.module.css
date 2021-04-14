@@ -24,31 +24,55 @@
 
 .ReviewsSubTitle {
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 300;
 }
 
 .ReviewsBlockItem1 {
     width: 350px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
+    background-color: rgba(236, 236, 236, 0.93);
+    border-radius: 2px;
     margin: 15px;
     margin-top: 180px;
-    height: 436px;
+    height: 460px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
 }
 
 .ReviewsBlockItem2 {
     width: 445px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
+    background-color: rgba(236, 236, 236, 0.93);
+    border-radius: 2зx;
     margin: 35px;
     height: 340px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
 }
 
 .ReviewsBlockItem3 {
     width: 350px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
+    background-color: rgba(236, 236, 236, 0.93);
+    border-radius: 2px;
     margin: 35px;
     height: 276px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.ReviewsBlockItem2 img {
+    width: 80px;
+    height: 80px;
+}
+
+.ReviewsBlockItem1 img {
+    width: 80px;
+    height: 80px;
+}
+
+.ReviewsBlockItem3 img {
+    width: 80px;
+    height: 80px;
 }
