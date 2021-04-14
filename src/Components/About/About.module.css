@@ -29,3 +29,33 @@
     font-family: Roboto;
     font-weight: 300;
 }
+
+@media screen and (max-width: 1268px) {
+    .AboutContent {
+        display: block;
+        padding: 10px;
+        text-align: left;
+    }
+    .AboutImage {
+        display: block;
+        width: 700px;
+        margin: 0 auto;
+    }
+    .AboutImage img {
+        display: block;
+        width: 700px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .AboutImage {
+        width: 100%;
+        max-width: 500px;
+    }
+    .AboutImage img {
+        width: 100%;
+        max-width: 500px;
+    }
+}

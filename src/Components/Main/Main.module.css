@@ -111,3 +111,24 @@
         width: 130px;
     }
 }
+
+@media screen and (max-width: 368px) {
+    .MainContentText {
+        width: 300px;
+        font-size: 24px;
+        padding-top: 1px;
+    }
+    .MainContentImage {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .MainContentImage img {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .MainContentCard img {
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+    }
+}

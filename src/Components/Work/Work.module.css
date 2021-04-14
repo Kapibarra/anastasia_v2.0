@@ -52,3 +52,18 @@
     width: 100%;
     max-width: 580px;
 }
+
+@media screen and (max-width: 1268px) {
+    .WorkContent {
+        display: block;
+    }
+    .WorkContentItem {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .WorkWrapper {
+        background-position: calc(100vw - 71vw) top;
+    }
+}
