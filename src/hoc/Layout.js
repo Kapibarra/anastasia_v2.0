@@ -22,22 +22,22 @@ render () {
           <Route path="/about">
             <Header />
             <About />
-            <Footer />
+            <Footer style={{ backgroundColor: "#f1f1f1"}}/>
           </Route>
           <Route path="/services">
             <Header />
             <Work />
-            <Footer />
+            <Footer style={{ backgroundColor: "#f1f1f1"}}/>
           </Route>
           <Route path="/rewiews">
             <Header />
             <Reviews />
-            <Footer />
+            <Footer style={{ backgroundColor: "#f1f1f1"}}/>
           </Route>
           <Route path="/contacts">
             <Header />
             <Contact />
-            <Footer />
+            <Footer style={{ backgroundColor: "#f1f1f1"}}/>
           </Route>
         </Switch>
         </div>

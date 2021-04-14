@@ -8,7 +8,7 @@ import sociallogo4 from "../../img/youtube_logo.png"
 
 const Footer = (props) => {
   return (
-    <div className={classes.FooterWrapper}>
+    <div className={classes.FooterWrapper} style={props.style}>
       <div className={classes.Footer}>
         <div className={classes.FooterCopyright}>
           {" "}
