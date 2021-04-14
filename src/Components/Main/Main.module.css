@@ -69,3 +69,22 @@
     font-size: 18px;
     text-align: center;
 }
+
+@media screen and (max-width: 968px) {
+    .MainContentText {
+        width: 500px;
+        padding-top: 1px;
+    }
+    .MainContent {
+        display: block;
+        height: 100%;
+    }
+    .MainContentImage {
+        width: 550px;
+        margin: 0 auto;
+    }
+    .MainContentImage img {
+        width: 550px;
+        margin: 0 auto;
+    }
+}
