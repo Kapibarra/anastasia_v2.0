@@ -43,6 +43,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     max-width: 1328px;
     justify-content: space-between;
@@ -50,6 +51,7 @@
 
 .MainContentCard {
     width: 160px;
+    margin: 0 auto;
 }
 
 .MainContentCardsTextWrapper {
@@ -86,5 +88,26 @@
     .MainContentImage img {
         width: 550px;
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .MainContentText {
+        width: 350px;
+        font-size: 24px;
+        padding-top: 1px;
+    }
+    .MainContentImage {
+        width: 350px;
+        margin: 0 auto;
+    }
+    .MainContentImage img {
+        width: 350px;
+        margin: 0 auto;
+    }
+    .MainContentCard img {
+        display: block;
+        margin: 0 auto;
+        width: 130px;
     }
 }

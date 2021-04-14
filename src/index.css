@@ -5,7 +5,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-#root {}
+a:-webkit-any-link:focus {
+    outline-offset: 0px;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;

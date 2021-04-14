@@ -28,18 +28,28 @@ const Main = () => {
     <div>
       <h1 className={classes.MainContentTitle}>C чем я могу помочь?</h1>
       <div className={classes.MainContentCards}>
-        <div className={classes.MainContentCard}><img src={help1} alt=""></img></div>
-        <div className={classes.MainContentCard}><img src={help2} alt=""></img></div>
-        <div className={classes.MainContentCard}><img src={help3} alt=""></img></div>
-        <div className={classes.MainContentCard}><img src={help4} alt=""></img></div>
-        <div className={classes.MainContentCard}><img src={help5} alt=""></img></div>
+        <div className={classes.MainContentCard}>
+        <img src={help1} alt=""></img>
+        <div className={classes.MainContentCardText}><p>Трудности в отношениях с партнером, семьей, друзьями</p></div>
+        </div>
+        <div className={classes.MainContentCard}><img src={help2} alt=""></img>
+        <div className={classes.MainContentCardText}><p>Проблемы в интимной сфере</p></div>
+        </div>
+        <div className={classes.MainContentCard}><img src={help3} alt=""></img>
+        <div className={classes.MainContentCardText}><p>Низкая самооценка</p></div>
+        </div>
+        <div className={classes.MainContentCard}><img src={help4} alt=""></img>
+        <div className={classes.MainContentCardText}><p>Потеря интереса к жизни, работе, учебе</p></div>
+        </div>
+        <div className={classes.MainContentCard}><img src={help5} alt=""></img>
+        <div className={classes.MainContentCardText}><p>Невозможность понять себя, свои эмоции и мотивы поведения</p></div>
+        </div>
       </div>
       <div className={classes.MainContentCardsTextWrapper}>
-        <div className={classes.MainContentCardText}><p>Трудности в отношениях с партнером, семьей, друзьями</p></div>
-        <div className={classes.MainContentCardText}><p>Проблемы в интимной сфере</p></div>
-        <div className={classes.MainContentCardText}><p>Низкая самооценка</p></div>
-        <div className={classes.MainContentCardText}><p>Потеря интереса к жизни, работе, учебе</p></div>
-        <div className={classes.MainContentCardText}><p>Невозможность понять себя, свои эмоции и мотивы поведения</p></div>
+        
+        
+       
+
       </div>
 </div>
 </div>

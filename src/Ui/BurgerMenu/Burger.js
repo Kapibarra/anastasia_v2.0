@@ -52,15 +52,7 @@ import {
         padding: '5px'
     },
     bmOverlay: {
-        position: 'fixed',
-        top:'0',
-        width: '100%',
-        height: '100%',
-        background: 'rgba(0, 0, 0, 0.3)',
-        opacity: 1,
-      background: 'rgba(0, 0, 0, 0.3)',
-      transition: 'all 0.5s ease 0s',
-      transform: 'translate3d(100%, 0px, 0px)',
+      display: 'none',
     }
   }
 
