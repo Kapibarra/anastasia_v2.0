@@ -76,3 +76,30 @@
     width: 80px;
     height: 80px;
 }
+
+@media screen and (max-width: 1368px) {
+    .ReviewsContent {
+        display: block;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .ReviewsContent div {
+        width: 100%;
+        max-width: 728px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ReviewsBlockItem1 {
+        padding: 0px;
+    }
+    .ReviewsBlockItem2 {
+        padding: 0px;
+    }
+    .ReviewsBlockItem3 {
+        padding: 0px
+    }
+}

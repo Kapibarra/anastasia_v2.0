@@ -5,7 +5,6 @@
     background-image: url(../../img/workbg.png);
     background-repeat: no-repeat;
     background-position: calc(100vw - 68vw);
-    height: 900px;
 }
 
 .ContactContent {
@@ -42,7 +41,9 @@
 
 .ContactForm {
     justify-content: center;
+    display: block;
     margin: auto;
+    margin-bottom: 25px;
 }
 
 .ButtonContactWrapper {
@@ -60,4 +61,12 @@ input::placeholder {
     font-weight: 300;
     font-size: 20px;
     color: rgb(26, 26, 26);
+}
+
+@media screen and (max-width: 468px) {
+    .ContactText {
+        margin: 0 auto;
+        margin-bottom: 25px;
+        width: 300px;
+    }
 }
