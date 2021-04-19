@@ -11,7 +11,7 @@ function Contact()  {
 <h1 className={classes.ContactTitle}>Будем на связи!</h1>
 <h2 className={classes.ContactSubTitle}>Оставьте заявку и я пришлю Вам свободные даты для консультаций.</h2>
 <p className={classes.ContactDescription}>Перед записью, ознакомьтесь с договором-офертой в PDF формате на оказание услуг по ссылке ниже.</p>
-<Button path="" title="Договор"/>
+<Button path="../src/contract.docx" title="Договор" download target="_blank"/>
 </div>
 <div className={classes.ContactForm}>
 <form action="https://formspree.io/xvowyvgl" method="POST">

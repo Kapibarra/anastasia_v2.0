@@ -27,7 +27,7 @@ const Work = () => {
             </p>
           </div>
           <div className={classes.ButtonWorkWrapper}>
-            <Button path="/contacts" title="1500 RUB"></Button>
+            <Button path="/contacts" title="1900 RUB"></Button>
           </div>
         </div>
         <div className={classes.WorkContentItem}>
