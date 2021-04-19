@@ -16,9 +16,9 @@ const Footer = (props) => {
         </div>
         <div className={classes.SocialLogos}>
           <div className={classes.SocialIconsWrapper}>
-              <NavLink to="#"><img src={sociallogo1} className={classes.SocialIconsImg}></img></NavLink>
-              <NavLink to="#"><img src={sociallogo2} className={classes.SocialIconsImg}></img></NavLink>
-              <NavLink to="#"><img src={sociallogo3} className={classes.SocialIconsImg}></img></NavLink>
+              <NavLink to="https://wa.me/+79055025507"><img src={sociallogo1} className={classes.SocialIconsImg}></img></NavLink>
+              <NavLink to="tg://resolve?domain=@Nastyaro_s"><img src={sociallogo2} className={classes.SocialIconsImg}></img></NavLink>
+              <NavLink to="https://profi.ru/profile/RostoshinskayaAA/"><img src={sociallogo3} className={classes.SocialIconsImg}></img></NavLink>
               <NavLink to="#"><img src={sociallogo4} className={classes.SocialIconsImg}></img></NavLink>
           </div>
         </div>
