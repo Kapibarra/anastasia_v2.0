@@ -3,6 +3,7 @@
     margin: 0 auto;
     display: flex;
     background-color: #E3E3E3;
+    min-height: 90vh;
 }
 
 .AboutContent {
