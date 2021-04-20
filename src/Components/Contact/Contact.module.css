@@ -14,6 +14,22 @@
     max-width: 1328px;
 }
 
+.Button {
+    width: 230px;
+    height: 60px;
+    background-color: #497577;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.Button a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
 .ContactText {
     width: 370px;
     margin-bottom: 20px;
