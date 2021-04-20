@@ -16,3 +16,13 @@ a:-webkit-any-link:focus {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.social-icon {
+    filter: grayscale(100);
+    transition: all 1s;
+}
+
+.social-icon:hover {
+    transition: all 1s;
+    filter: grayscale(0)
+}
