@@ -19,7 +19,9 @@
     filter: grayscale(100);
 }
 
-.FooterCopyright {}
+.FooterCopyright {
+    color: rgba(0, 0, 0, 0.5);
+}
 
 .SocialIconsWrapper {
     display: flex;
