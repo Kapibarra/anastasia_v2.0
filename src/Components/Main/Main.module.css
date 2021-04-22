@@ -23,8 +23,13 @@
     margin: auto;
 }
 
+.MainContentImage {
+    height: 100%;
+}
+
 .MainContentImage img {
     align-items: baseline !important;
+    height: 99.9%;
 }
 
 .MainContentTitle {
