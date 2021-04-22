@@ -20,12 +20,12 @@ function Contact()  {
 </div>
 <div className={classes.ContactForm}>
 <form action="https://formspree.io/xvowyvgl" method="POST">
-    <Input placeholder="Имя"/>
-    <Input placeholder="+ 7 (999) 999-99-99"/>
-    <Input placeholder="example@mail.com"/>
-    <Input placeholder="Опишите проблему"/>
+    <Input name="name" placeholder="Имя"/>
+    <Input name="phone" placeholder="+ 7 (999) 999-99-99"/>
+    <Input name="email" placeholder="example@mail.com"/>
+    <Input  name="description" placeholder="Опишите проблему"/>
     <div className={classes.ButtonContactWrapper}>
-            <Button title="Отправить" type="submit"></Button>
+            <button className={classes.Button} title="Отправить" type="submit">Отправить</button>
           </div>
           </form>
 </div>
