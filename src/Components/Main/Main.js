@@ -1,6 +1,6 @@
 import classes from "./Main.module.css";
 import React from "react";
-import profile from "../../img/profile3.png";
+import profile from "../../img/profilepic.png";
 import Button from "../../Ui/Buttons/Button";
 import help1 from "../../img/help1.png"
 import help2 from "../../img/help2.png"
