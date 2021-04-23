@@ -21,9 +21,10 @@
     text-align: left;
     width: 100%;
     max-width: 1328px;
-    font-size: 48px;
+    font-size: 36px;
     font-family: Roboto;
-    font-weight: 400;
+    font-weight: 300;
+    color: black;
     padding: 50px 0px;
 }
 
