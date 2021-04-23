@@ -66,6 +66,8 @@
     display: block;
     margin: 0 auto;
     width: 230px;
+    padding: 10px;
+    padding-top: unset;
     align-items: center;
     align-content: center;
     justify-content: center;

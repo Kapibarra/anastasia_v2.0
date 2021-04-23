@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './About.module.css'
-import aboutimg from '../../img/aboutlogo1.png'
+import aboutimg from '../../img/aboutlogo.png'
 
 const About = () => {
     return (
