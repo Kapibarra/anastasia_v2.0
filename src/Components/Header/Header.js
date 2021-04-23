@@ -25,7 +25,7 @@ const Header = () => {
     return (
       <div className={classes.Header}>
       <div className={classes.Header__Logo}>
-      <img src={logo} alt=""></img>
+      <img src={logo} alt="" className={classes.Header__LogoItem}></img>
       <div className={classes.Header__Logo_text}>
           <p className={classes.Header__Logo_text1}>ANASTASIA R</p>
           <p className={classes.Header__Logo_text2}>PSYCHOTERAPY</p>

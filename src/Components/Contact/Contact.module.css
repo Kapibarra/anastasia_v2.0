@@ -83,10 +83,18 @@ input::placeholder {
     color: rgb(26, 26, 26);
 }
 
+a {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 468px) {
     .ContactText {
         margin: 0 auto;
         margin-bottom: 25px;
         width: 300px;
+    }
+    .Button {
+        display: block;
+        text-decoration: none;
     }
 }
