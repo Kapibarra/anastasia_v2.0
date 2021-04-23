@@ -12,6 +12,7 @@
 .Header__Logo {
     align-items: center;
     display: flex;
+    margin-top: 5px;
 }
 
 .Header__Logo img:nth-child(1) {
@@ -49,6 +50,7 @@
     line-height: 26px;
     margin-block-start: 12px;
     margin-block-end: -2px;
+    color: black;
 }
 
 .Header__Logo_text2 {
@@ -56,6 +58,7 @@
     font-weight: bold;
     opacity: 0.5;
     text-align: center;
+    color: black;
 }
 
 .Header__LogoItem {

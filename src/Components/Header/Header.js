@@ -3,11 +3,13 @@ import classes from "./Header.module.css";
 import logo from "../../img/logo_dark2.png"
 import Navigation from "../../Ui/NavLink/Navigation";
 import Burger from "../../Ui/BurgerMenu/Burger";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   if (window.screen.width >= 968) {
     return (
       <div className={classes.Header}>
+      <NavLink to="">
         <div className={classes.Header__Logo}>
         <img src={logo} alt="" className={classes.Header__LogoItem}></img>
         {/* <img src={logo2} alt=""></img> */}
@@ -16,6 +18,7 @@ const Header = () => {
           <p className={classes.Header__Logo_text2}>PSYCHOTERAPY</p>
         </div>
         </div>
+        </NavLink>
         <div className={classes.Header__Nav}>
           <Navigation />
         </div>
