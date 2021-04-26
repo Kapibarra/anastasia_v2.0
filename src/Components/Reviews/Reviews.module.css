@@ -21,12 +21,14 @@
     font-family: Roboto;
     font-weight: 300;
     color: black;
+    padding-left: 5px;
 }
 
 .ReviewsSubTitle {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 300;
+    padding-left: 5px;
 }
 
 .ReviewsBlockItem1 {
