@@ -69,6 +69,7 @@
     margin: 0 auto;
     width: 230px;
     padding: 10px;
+    padding-bottom: 30px;
     padding-top: unset;
     align-items: center;
     align-content: center;
@@ -85,12 +86,23 @@ input::placeholder {
 
 a {
     text-decoration: none;
+    color: #497577;
+}
+
+.PrivatPolicy {
+    width: 100%;
+    max-width: 420px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 38px;
 }
 
 #mc-embedded-subscribe {}
 
 input[type="submit"]:disabled {
     opacity: .5;
+    cursor: not-allowed;
 }
 
 @media screen and (max-width: 468px) {
@@ -102,5 +114,9 @@ input[type="submit"]:disabled {
     .Button {
         display: block;
         text-decoration: none;
+    }
+    .PrivatPolicy {
+        text-align: center;
+        width: 300px;
     }
 }

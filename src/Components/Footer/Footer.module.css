@@ -20,6 +20,8 @@
 }
 
 .FooterCopyright {
+    font-size: 10px;
+    padding: 5px;
     color: rgba(0, 0, 0, 0.5);
 }
 

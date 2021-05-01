@@ -11,6 +11,9 @@ const Footer = (props) => {
           {" "}
           &copy; {new Date().getFullYear()} Novikov.N.M.
         </div>
+        <div className={classes.FooterCopyright}>
+   Политика конфиденциальности
+        </div>
         <div className={classes.SocialLogos}>
           <div className={classes.SocialIconsWrapper}>
           <SocialIcon url="https://wa.me/+79055025507" network="whatsapp" style={{ height: 30, width: 30, margin:5 }} />

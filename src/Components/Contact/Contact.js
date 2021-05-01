@@ -5,9 +5,10 @@ import classes from "./Contact.module.css";
 import Contract from "../../contract.docx";
 
 function Contact() {
-function onChangeHandler() {
-    document.getElementById('mc-embedded-subscribe').disabled = !this.checked
-}
+
+    function onChangeHandler() {
+        document.getElementById('mc-embedded-subscribe').removeAttribute("disabled")
+    }
   return (
     <div className={classes.ContactWrapper}>
       <div className={classes.ContactContent}>
@@ -30,33 +31,29 @@ function onChangeHandler() {
             <Input name="phone" placeholder="+ 7 (999) 999-99-99" />
             <Input name="email" placeholder="example@mail.com" />
             <Input name="description" placeholder="Опишите проблему" />
+            <div className={classes.PrivatPolicy}>
             <label>
-              <input
+              <input 
+              className={classes.Input}
                 type="checkbox"
                 name="accept"
-                onСhange={onChangeHandler}
+                onClick={onChangeHandler}
               />{" "}
               Я ознакомлен(-а) с{" "}
               <a href="http://site.ru/privacy/" target="_blank">
                 Политикой конфиденциальности
               </a>
             </label>
+            </div>
+            <div className={classes.ButtonContactWrapper}>
             <input
               type="submit"
               value="Отправить"
               name="subscribe"
               id="mc-embedded-subscribe"
-              disabled
+              disabled="true"
               className={classes.Button}
             ></input>
-            <div className={classes.ButtonContactWrapper}>
-              <button
-                className={classes.Button}
-                title="Отправить"
-                type="submit"
-              >
-                Отправить
-              </button>
             </div>
           </form>
         </div>
