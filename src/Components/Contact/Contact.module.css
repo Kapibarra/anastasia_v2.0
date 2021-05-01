@@ -87,6 +87,12 @@ a {
     text-decoration: none;
 }
 
+#mc-embedded-subscribe {}
+
+input[type="submit"]:disabled {
+    opacity: .5;
+}
+
 @media screen and (max-width: 468px) {
     .ContactText {
         margin: 0 auto;
