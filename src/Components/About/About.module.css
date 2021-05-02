@@ -32,6 +32,22 @@
     color: black;
 }
 
+.SliderWrapper {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.slick-next,
+.slick-prev {
+    color: black !important;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    color: black !important;
+}
+
 @media screen and (max-width: 1268px) {
     .AboutContent {
         display: block;

@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import classes from './About.module.css'
 import aboutimg from '../../img/aboutlogo.png'
+import SimpleSlider from '../../Ui/Slider/Slider'
 
 const About = () => {
     return (
+        <Fragment >
 <div className={classes.AboutWrapper}>
 <div className={classes.AboutContent}>
     <div className={classes.AboutText}>
@@ -17,7 +19,12 @@ const About = () => {
 Моя основная цель – помочь Вам обрести контроль над своей жизнью и научиться справляться с жизненными трудностями и без психолога. Надеюсь, я буду вам полезна в достижении жизненной гармонии.</div>
     <div className={classes.AboutImage}><img src={aboutimg}></img></div>
     </div>
+
 </div>
+<div className={classes.SliderWrapper}>
+<SimpleSlider />
+</div>
+</Fragment>
     )
 }
 
