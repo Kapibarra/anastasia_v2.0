@@ -1,0 +1,24 @@
+/* div {
+    display: unset;
+} */
+
+.Slide {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Slide img {
+    width: 100%;
+    max-width: 650px;
+}
+
+.slick-next,
+.slick-prev {
+    color: black !important;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    color: black !important;
+}

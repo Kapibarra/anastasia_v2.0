@@ -1,5 +1,14 @@
+import classes from "./Slider.module.css";
 import React, { Component } from "react";
 import Slider from "react-slick";
+import dip1 from '../../img/diplom1.png'
+import dip2 from '../../img/diplom2.png'
+import dip3 from '../../img/diplom3.png'
+import dip4 from '../../img/diplom4.png'
+import dip5 from '../../img/diplom5.png'
+import dip6 from '../../img/diplom6.png'
+import dip7 from '../../img/diplom7.png'
+import dip8 from '../../img/diplom8.png'
 
 export default class SimpleSlider extends Component {
   render() {
@@ -13,23 +22,21 @@ export default class SimpleSlider extends Component {
     return (
       <div>
         <Slider {...settings}>
-          <div>
-            <h3>1</h3>
+          <div className={classes.Slide}>
+            <img src={dip1}></img>
+            <img src={dip2}></img>
           </div>
-          <div>
-            <h3>2</h3>
+          <div className={classes.Slide}>
+          <img src={dip3}></img>
+            <img src={dip4}></img>
           </div>
-          <div>
-            <h3>3</h3>
+          <div className={classes.Slide}>
+          <img src={dip5}></img>
+            <img src={dip6}></img>
           </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
+          <div className={classes.Slide}>
+          <img src={dip7}></img>
+            <img src={dip8}></img>
           </div>
         </Slider>
       </div>
