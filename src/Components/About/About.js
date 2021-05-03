@@ -2,6 +2,8 @@ import React, { Fragment } from 'react'
 import classes from './About.module.css'
 import aboutimg from '../../img/aboutlogo.png'
 import SimpleSlider from '../../Ui/Slider/Slider'
+import Popup from '../../Ui/Popup/Popup'
+
 
 const About = () => {
     return (
@@ -24,6 +26,7 @@ const About = () => {
 <div className={classes.SliderWrapper}>
 <SimpleSlider />
 </div>
+<Popup />
 </Fragment>
     )
 }
