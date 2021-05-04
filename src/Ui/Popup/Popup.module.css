@@ -1,6 +1,6 @@
 .modalWrapper {
     height: 80vh;
-    width: 90vw;
+    width: 80vw;
     display: block;
     align-items: center;
     justify-content: center;
@@ -10,10 +10,41 @@
 .modalTitle {
     text-align: center;
     display: block;
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: 300;
     color: black;
 }
 
+.PopupBtnWrapper {
+    width: 100%;
+    max-width: 230px;
+    margin: 0 auto;
+}
+
+.ModalButton {
+    width: 230px;
+    height: 60px;
+    background-color: #497577;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.ModalButton a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
 .swipeIcon {
+    position: fixed;
+    top: 70%;
+    left: 50%;
     overflow: visible;
     width: 28px;
     height: 34px;

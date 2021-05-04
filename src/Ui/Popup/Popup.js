@@ -32,8 +32,8 @@ function Popup() {
   }
 
   return (
-    <div>
-      <button onClick={openModal}>Мои дипломы</button>
+    <div>    
+      <button onClick={openModal} className={classes.ModalButton}>Мои дипломы</button>
       <Modal
         isOpen={modalIsOpen}
         // onAfterOpen={afterOpenModal}
@@ -43,7 +43,7 @@ function Popup() {
       >
         <div className={classes.modalWrapper}>
         <h2 ref={(_subtitle) => (subtitle = _subtitle)} className={classes.modalTitle}>Мои дипломы</h2>
-        {/* <SimpleSlider /> */}
+        <SimpleSlider />
           <svg className={classes.swipeIcon} xmlns="http://www.w3.org/2000/svg">
             <g fill="none">
               <path
@@ -57,7 +57,9 @@ function Popup() {
               />
             </g>
           </svg>
-          <button onClick={closeModal}>Закрыть</button>
+          <div className={classes.PopupBtnWrapper}>
+          <button onClick={closeModal} className={classes.ModalButton}>Закрыть</button>
+          </div>
         </div>
 
 
