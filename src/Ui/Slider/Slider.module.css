@@ -2,15 +2,18 @@
     display: unset;
 } */
 
+.SliderWrapper {}
+
 .Slide {
-    display: flex !important;
+    /* display: flex !important; */
     flex-direction: row;
     justify-content: space-between;
 }
 
 .Slide img {
     width: 100%;
-    max-width: 650px;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .slick-next,

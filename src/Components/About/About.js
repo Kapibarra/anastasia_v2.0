@@ -24,7 +24,6 @@ const About = () => {
 
 </div>
 <div className={classes.SliderWrapper}>
-<SimpleSlider />
 </div>
 <Popup />
 </Fragment>
