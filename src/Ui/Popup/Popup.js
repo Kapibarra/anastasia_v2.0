@@ -43,7 +43,7 @@ function Popup() {
       >
         <div className={classes.modalWrapper}>
         <h2 ref={(_subtitle) => (subtitle = _subtitle)} className={classes.modalTitle}>Мои дипломы</h2>
-        <SimpleSlider />
+        {/* <SimpleSlider /> */}
           <svg className={classes.swipeIcon} xmlns="http://www.w3.org/2000/svg">
             <g fill="none">
               <path

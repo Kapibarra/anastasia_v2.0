@@ -2,7 +2,9 @@
     display: unset;
 } */
 
-.SliderWrapper {}
+.SliderWrapper {
+    opacity: 1;
+}
 
 .Slide {
     /* display: flex !important; */

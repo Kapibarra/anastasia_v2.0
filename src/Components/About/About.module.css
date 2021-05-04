@@ -16,13 +16,11 @@
     font-size: 19px;
     font-weight: 300;
     padding-bottom: 40px;
-    z-index: 2;
 }
 
 .AboutImage {
     margin: auto;
     align-items: center;
-    z-index: 1;
 }
 
 .AboutTitle {
