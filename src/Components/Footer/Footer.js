@@ -18,8 +18,8 @@ const Footer = (props) => {
           <div className={classes.SocialIconsWrapper}>
           <SocialIcon url="https://wa.me/+79055025507" network="whatsapp" style={{ height: 30, width: 30, margin:5 }} />
           <SocialIcon url="tg://resolve?domain=@Nastyaro_s" network="telegram" style={{ height: 30, width: 30, margin:5 }} />
-          <SocialIcon url="https://profi.ru/profile/RostoshinskayaAA/" network="instagram" style={{ height: 30, width: 30, margin:5 }} />
-          <SocialIcon url="#" network="youtube" style={{ height: 30, width: 30, margin:5 }} />
+          <SocialIcon url="hhttps://www.instagram.com/psyrost/" network="instagram" style={{ height: 30, width: 30, margin:5 }} />
+          <SocialIcon url="#" network="youtube" style={{ height: 30, width: 30, margin:5}} />
           </div>
         </div>
       </div>
