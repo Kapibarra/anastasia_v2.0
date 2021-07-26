@@ -3,10 +3,11 @@ import React from "react";
 import Button from "../../Ui/Buttons/Button";
 import image1 from "../../img/workimg1.png";
 import image2 from "../../img/workimg2.png";
-import Contract from '../../contract.docx'
+import Contract from '../../contract.docx';
 
 const Work = () => {
   return (
+
     <div className={classes.WorkWrapper}>
       <h1 className={classes.WorkContentPageTitle}>Услуги</h1>
       <div className={classes.WorkContent}>
@@ -55,3 +56,4 @@ const Work = () => {
 };
 
 export default Work;
+
