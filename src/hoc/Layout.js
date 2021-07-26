@@ -3,7 +3,7 @@ import Footer from "../Components/Footer/Footer";
 import Header from "../Components/Header/Header";
 import Main from "../Components/Main/Main";
 import classes from "./Layout.module.css";
-import { BrowserRouter as Switch, Route } from "react-router-dom";
+import { BrowserRouter as Switch, Redirect, Route } from "react-router-dom";
 import About from "../Components/About/About";
 import Work from "../Components/Work/Work";
 import Contact from "../Components/Contact/Contact";
@@ -14,11 +14,12 @@ render () {
     return (
         <div className={classes.Layout}>
 <Switch>
-          <Route exact path="/">
+          <Route exact path="/" >
             <Header />
             <Main />
             <Footer />
           </Route>
+          <Redirect to={'/'}/>
           <Route path="/about">
             <Header />
             <About />

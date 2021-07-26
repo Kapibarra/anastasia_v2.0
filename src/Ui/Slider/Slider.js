@@ -20,22 +20,30 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1
     };
     return (
-      <div>
+      <div className={classes.SliderWrapper}>
         <Slider {...settings}>
           <div className={classes.Slide}>
             <img src={dip1}></img>
-            <img src={dip2}></img>
+          </div>
+          <div className={classes.Slide}>
+          <img src={dip2}></img>
           </div>
           <div className={classes.Slide}>
           <img src={dip3}></img>
-            <img src={dip4}></img>
           </div>
           <div className={classes.Slide}>
-          <img src={dip5}></img>
+          <img src={dip4}></img>
+          </div>
+          <div className={classes.Slide}>
+            <img src={dip5}></img>
+          </div>
+          <div className={classes.Slide}>
             <img src={dip6}></img>
           </div>
           <div className={classes.Slide}>
-          <img src={dip7}></img>
+            <img src={dip7}></img>
+          </div>
+          <div className={classes.Slide}>
             <img src={dip8}></img>
           </div>
         </Slider>
