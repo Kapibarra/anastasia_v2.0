@@ -42,7 +42,7 @@ export const pageAnimation = {
     show: {
       scale: 1,
       opacity: 1,
-      trandition: { ease: "easeOut", duration: 1.75 },
+      trandition: { ease: "easeOut", duration: 2.75 },
     },
   };
   

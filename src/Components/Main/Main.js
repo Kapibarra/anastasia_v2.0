@@ -8,23 +8,23 @@ import help3 from "../../img/help3.png"
 import help4 from "../../img/help4.png"
 import help5 from "../../img/help5.png"
 import {motion} from 'framer-motion';
-import {fade, pageAnimation} from '../../Ui/Animations'
+import {fade, lineAnim, pageAnimation, photoAnim} from '../../Ui/Animations'
 
 const Main = () => {
   return (
     <div>
     <div className={classes.MainWrapper}>
       <div className={classes.MainContent}>
-        <div className={classes.MainContentText}>
+        <motion.div className={classes.MainContentText} variants={fade} initial="hidden" animate="show" exit="exit">
           <p>
             Профессиональная консультация от дипломированного психолога и
             преподавателя
           </p>
           <Button title="Оставить заявку" path="/contacts" />
-        </div>
-        <div className={classes.MainContentImage}>
+        </motion.div>
+        <motion.div className={classes.MainContentImage} variants={photoAnim} initial="hidden" animate="show" exit="exit">
           <img src={profile} alt=""></img>
-        </div>
+        </motion.div>
       </div>
     </div>
     <div>
