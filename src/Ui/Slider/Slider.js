@@ -23,28 +23,28 @@ export default class SimpleSlider extends Component {
       <div className={classes.SliderWrapper}>
         <Slider {...settings}>
           <div className={classes.Slide}>
-            <img src={dip1}></img>
+            <img src={dip1} alt="diplom"></img>
           </div>
           <div className={classes.Slide}>
-          <img src={dip2}></img>
+          <img src={dip2} alt="diplom"></img>
           </div>
           <div className={classes.Slide}>
-          <img src={dip3}></img>
+          <img src={dip3} alt="diplom"></img>
           </div>
           <div className={classes.Slide}>
-          <img src={dip4}></img>
+          <img src={dip4} alt="diplom"></img>
           </div>
           <div className={classes.Slide}>
-            <img src={dip5}></img>
+            <img src={dip5} alt="diplom"></img>
           </div>
           <div className={classes.Slide}>
-            <img src={dip6}></img>
+            <img src={dip6} alt="diplom"></img>
           </div>
           <div className={classes.Slide}>
-            <img src={dip7}></img>
+            <img src={dip7} alt="diplom"></img>
           </div>
           <div className={classes.Slide}>
-            <img src={dip8}></img>
+            <img src={dip8} alt="diplom"></img>
           </div>
         </Slider>
       </div>

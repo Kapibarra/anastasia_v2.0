@@ -4,11 +4,13 @@ import logo from "../../img/logo_dark2.png"
 import Navigation from "../../Ui/NavLink/Navigation";
 import Burger from "../../Ui/BurgerMenu/Burger";
 import { NavLink } from "react-router-dom";
+import {motion} from 'framer-motion';
+import {fade, pageAnimation} from '../../Ui/Animations'
 
 const Header = () => {
   if (window.screen.width >= 968) {
     return (
-      <div className={classes.Header}>
+      <motion.div className={classes.Header}  variants={fade} initial="hidden" animate="show" exit="exit">
       <NavLink to="">
         <div className={classes.Header__Logo}>
         <img src={logo} alt="" className={classes.Header__LogoItem}></img>
@@ -22,11 +24,11 @@ const Header = () => {
         <div className={classes.Header__Nav}>
           <Navigation />
         </div>
-      </div>
+      </motion.div>
     );
   } else {
     return (
-      <div className={classes.Header}>
+      <motion.div className={classes.Header} variants={pageAnimation} initial="hidden" animate="show" exit="exit">
       <div className={classes.Header__Logo}>
       <img src={logo} alt="" className={classes.Header__LogoItem}></img>
       <div className={classes.Header__Logo_text}>
@@ -37,7 +39,7 @@ const Header = () => {
       <div className={classes.Header__Nav}>
         <Burger />
       </div>
-    </div>
+    </motion.div>
     )
   }
 
