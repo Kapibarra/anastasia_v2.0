@@ -22,6 +22,13 @@ export const pageAnimation = {
   };
   
   export const titleAnim = {
+    hidden: { x: 200 },
+    show: {
+      x: 0,
+      transition: { duration: 0.55, ease: "easeOut" },
+    },
+  };
+  export const subTitleAnim = {
     hidden: { y: 200 },
     show: {
       y: 0,
@@ -33,7 +40,7 @@ export const pageAnimation = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
-      transition: { ease: "easeOut", duration: 2 },
+      transition: { ease: "easeOut", duration: 1.5 },
     },
   };
   
@@ -42,7 +49,7 @@ export const pageAnimation = {
     show: {
       scale: 1,
       opacity: 1,
-      trandition: { ease: "easeOut", duration: 2.75 },
+      transition: { ease: "easeOut", duration: 1 },
     },
   };
   
