@@ -7,6 +7,7 @@ import help2 from "../../img/help2.png";
 import help3 from "../../img/help3.png";
 import help4 from "../../img/help4.png";
 import help5 from "../../img/help5.png";
+import styled from "styled-components";
 import { motion } from "framer-motion";
 import {
   fade,
