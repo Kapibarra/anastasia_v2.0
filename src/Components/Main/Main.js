@@ -23,12 +23,6 @@ const Main = () => {
   return (
     <div>
       <div className={classes.MainWrapper}>
-      <motion.div variants={sliderContainer}>
-    <Frame1 variants={slider}></Frame1>
-    <Frame2 variants={slider}></Frame2>
-    <Frame3 variants={slider}></Frame3>
-    <Frame4 variants={slider}></Frame4>
-    </motion.div>
         <div className={classes.MainContent}>
           <div className={classes.MainContentText}>
             <motion.p
